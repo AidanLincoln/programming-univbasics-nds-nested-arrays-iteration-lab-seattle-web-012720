@@ -1,15 +1,11 @@
 def join_ingredients(src)
-  
   array = []
   row_index = 0
-  
   while row_index < src.count do
     array.push("I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")  
       row_index += 1
   end    
-  
   return array
-  
 end
 
 def find_greater_pair(src)
@@ -24,11 +20,9 @@ def find_greater_pair(src)
   i += 1 
   end
   return array
-  
 end
 
 def total_even_pairs(src)
-  
   total = 0
   i = 0
   while i < src.count do

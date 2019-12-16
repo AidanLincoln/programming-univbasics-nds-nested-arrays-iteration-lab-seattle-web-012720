@@ -22,7 +22,11 @@ def find_greater_pair(src)
     if src[i][0] < src[i][1]
       array.push(src[i][1])
     else
+      array.push(src[i][0])
     end
+  i += 0 
+  end
+  return array
 end
 
 def total_even_pairs(src)

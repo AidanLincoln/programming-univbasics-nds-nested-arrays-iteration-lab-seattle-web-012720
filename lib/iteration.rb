@@ -13,7 +13,7 @@ def join_ingredients(src)
   while row_index < src.count
     element_index = 0
     while element_index < src[row_index].count
-      array.push(`I love ${}`)  
+      array.push(`I love #{src[row_index][0]} and #{}`)  
 end
 
 def find_greater_pair(src)
